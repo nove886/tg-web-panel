@@ -1,0 +1,14 @@
+{
+  "domain": "tg.your-domain.com",
+  "listen_port": 0,
+  "secret": "",
+  "carrier_mode": "websocket",
+  "tls": {
+    "mode": "self_signed",
+    "cert_file": "origin.pem",
+    "key_file": "origin.key"
+  },
+  "install_python_dependencies": true,
+  "check_public_entry": true,
+  "show_link_in_console": false
+}
